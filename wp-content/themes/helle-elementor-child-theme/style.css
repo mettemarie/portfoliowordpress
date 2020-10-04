@@ -1,0 +1,36 @@
+/*
+ Theme Name:   Hello Elementor Child Theme
+ Theme URI:    https://mettemariebech.dk/hello-elementor/
+ Description:  Hello Elementor Child Theme
+ Author:       Mette Marie Bech Sørensen
+ Author URI:   https://mettemariebech.dk
+ Template:     hello-elementor
+ Version:      1.1.1
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  helloelementorchildtheme
+*/
+
+.site-header {
+    display:none !important;
+}
+
+.entry-title {
+    display:none !important;
+}
+
+#comments {
+    display:none;
+}
+
+.elementor-widget-wrap {
+position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.elementor-column-gap-default>.elementor-row>.elementor-column>.elementor-element-populated {
+    padding: 10px 0px !important;
+}
